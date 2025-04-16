@@ -12,12 +12,7 @@
     <fragment
         android:id="@+id/montarTreinoFragment"
         android:name="com.example.academiaapp.ui.MontarTreinoFragment"
-        android:label="Montar Treino" />
-
-    <fragment
-        android:id="@+id/treinosSalvosFragment"
-        android:name="com.example.academiaapp.ui.TreinosSalvosFragment"
-        android:label="Treinos Salvos" />
+        android:label="Treinos" />
 
     <fragment
         android:id="@+id/calculadoraImcFragment"

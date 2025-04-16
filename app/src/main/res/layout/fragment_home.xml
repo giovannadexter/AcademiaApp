@@ -17,17 +17,11 @@
         android:layout_marginBottom="24dp" />
 
     <Button
-        android:id="@+id/buttonMontarTreino"
+        android:id="@+id/buttonTreinos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Montar Treino" />
+        android:text="Treinos" />
 
-    <Button
-        android:id="@+id/buttonTreinosSalvos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ver Treinos Salvos"
-        android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/buttonImc"

@@ -15,12 +15,8 @@ class HomeFragment : Fragment() {
     ): View {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
 
-        view.findViewById<Button>(R.id.buttonMontarTreino).setOnClickListener {
+        view.findViewById<Button>(R.id.buttonTreinos).setOnClickListener {
             findNavController().navigate(R.id.montarTreinoFragment)
-        }
-
-        view.findViewById<Button>(R.id.buttonTreinosSalvos).setOnClickListener {
-            findNavController().navigate(R.id.treinosSalvosFragment)
         }
 
         view.findViewById<Button>(R.id.buttonImc).setOnClickListener {
